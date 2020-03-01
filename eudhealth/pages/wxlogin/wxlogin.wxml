@@ -1,0 +1,6 @@
+<view class="card1">
+  <view class="loginbox">
+    <button class="lgbtn" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 微信快捷登录</button>
+    <view class="dlwz">请先登录</view>
+  </view>
+</view>

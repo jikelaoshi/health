@@ -1,0 +1,6 @@
+/**index.wxss**/
+page{background:#ffffff;box-sizing:border-box;}
+.wrap{width:100%;padding:20rpx 30rpx;box-sizing:border-box;}
+.mscan{text-align: center;position: fixed;top:40%;left:50%;margin-left:-80rpx;}
+.micon{font-size: 70pt;color:#21cf3e;}
+.wz{font-size:13pt;}

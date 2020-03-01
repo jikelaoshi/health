@@ -1,0 +1,7 @@
+<view class="wrap">
+  <view class="mscan" bindtap="scan">
+    <view class="cuIcon-warn micon"></view>
+    <text class="wz">没有记录</text>
+  </view>
+  <!--<button class="cu-btn bg-green lg" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" >绑定手机号</button>-->
+</view>

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/health/health",
+    "pages/healthlist/healthlist",
+    "pages/healthdetail/healthdetail",
+    "pages/user/user",
+    "pages/wxlogin/wxlogin",
+    "pages/addregpoint/addregpoint",
+    "pages/regpointlist/regpointlist",
+    "pages/adduser/adduser",
+    "pages/editpwd/editpwd",
+    "pages/bindphone/bindphone",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#21cf3e",
+    "navigationBarTitleText": "校园健康登记",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":false
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/homeon.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/user/user",
+      "iconPath": "images/user.png",
+      "selectedIconPath": "images/useron.png",
+      "text": "我的"
+    }]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,43 @@
+<view class="">
+  <view class="userbox">
+    <view class="userinfo">
+      <image class="userinfo-avatar" src="{{tmpuserInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{tmpuserInfo.nickName}}</text>
+      <text class="userinfo-nickname">{{phone==null ? '' : phone}}</text>
+    </view>
+  </view>
+  <view class="widgetsbox">
+    <!--<view class="witem" bindtap="openlog">
+      <text>记录</text>
+      <image class="imgarrow" src="../../images/arrowr.png" mode="aspectFill" />
+    </view>-->
+    <view class="witem" bindtap="health">
+      <text>健康登记</text>
+      <image class="imgarrow" src="../../images/arrowr.png" mode="aspectFill" />
+    </view>
+    <view class="witem" bindtap="healthList">
+      <text>登记记录</text>
+      <image class="imgarrow" src="../../images/arrowr.png" mode="aspectFill" />
+    </view>
+    <view class="witem" bindtap="adduser">
+      <text>创建管理员</text>
+      <image class="imgarrow" src="../../images/arrowr.png" mode="aspectFill" />
+    </view>
+    <view class="witem" bindtap="addRegpoint">
+      <text>添加登记点</text>
+      <image class="imgarrow" src="../../images/arrowr.png" mode="aspectFill" />
+    </view>
+    <view class="witem" bindtap="regpointList">
+      <text>登记点列表</text>
+      <image class="imgarrow" src="../../images/arrowr.png" mode="aspectFill" />
+    </view>
+    <view class="witem {{phone==null ? '' : 'hide'}}" bindtap="bindPhone">
+      <text>绑定手机号</text>
+      <image class="imgarrow" src="../../images/arrowr.png" mode="aspectFill" />
+    </view>
+    <!-- <view class="witem" bindtap="editpwd">
+      <text>修改管理员密码</text>
+      <image class="imgarrow" src="../../images/arrowr.png" mode="aspectFill" />
+    </view> -->
+  </view>
+</view>
